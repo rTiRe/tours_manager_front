@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Поиск Туров</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style_header.css">
+    <link rel="stylesheet" href="style/style_body.css">
+    <link rel="stylesheet" href="style/style_index.css">
 </head>
 <body>
     <header>
@@ -18,7 +20,7 @@
             </div>
             <button class="menu-toggle">☰</button>
             <ul class="nav-links">
-                <li><a href="#tours">Туры</a></li>
+                <li><a href="/tours.html">Туры</a></li>
                 <li><a href="#agencies">Турагенства</a></li>
                 <li><a href="#account">Аккаунт</a></li>
             </ul>
@@ -30,18 +32,33 @@
             <form action="GET">
                 <div class="selectors">
                     <div class="left">
-                        <label for="city">Город</label>
-                        <input type="text" id="city" name="city" required pattern="\S+">
+                        <label for="country">Страна</label>
+                        <select name="country" required="" id="id_country">
+                            <option value="" selected=""></option>
+
+                            <option value="a57e4faf-9ead-4926-b5c0-b42e4ef7b32b">Австралия</option>
+
+                            <option value="6b95c1c9-cd76-4134-a8e3-6bbb0f0cd3e2">Австрия</option>
+                            
+                        </select>
                     </div>
                     <div class="right">
-                        <label for="country">Страна</label>
-                        <input type="text" id="country" name="country" required pattern="\S+">
+                        <label for="city">Город</label>
+                        <select name="city" required="" id="id_city">
+                            <option value="" selected=""></option>
+
+                            <option value="da707b24-d4ce-48dd-bb31-28bc8feabb53">1</option>
+                        
+                            <option value="ec774704-603a-47c5-8cb0-145175068765">2</option>
+                        
+                        </select>
                     </div>
                 </div>
                 <button type="submit">Найти туры</button>
             </form>
-        </div>
+        </div>  
     </section>
+    <script src="jquery.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
