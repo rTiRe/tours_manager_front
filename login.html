@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/body.css">
-    <link rel="stylesheet" href="style/search_tours.css">
+    <link rel="stylesheet" href="style/account_form.css">
+    <script src="https://kit.fontawesome.com/8f534068a4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -27,37 +28,23 @@
         </div>
     </header>
     <section class="home">
-        <div class="search">
-            <form action="GET">
-                <div class="selectors">
-                    <div class="left">
-                        <label for="country">Страна</label>
-                        <select name="country" required="" id="id_country">
-                            <option value="" selected=""></option>
-
-                            <option value="a57e4faf-9ead-4926-b5c0-b42e4ef7b32b">Австралия</option>
-
-                            <option value="6b95c1c9-cd76-4134-a8e3-6bbb0f0cd3e2">Австрия</option>
-                            
-                        </select>
+        <div class="container">
+            <div class="account_form">
+                <p class="title"><i class="fa-solid fa-hand-peace"></i> Рады встрече!</p>
+                <form method="post">
+                    <div class="input_group username">
+                        <label for="username">Имя пользователя</label>
+                        <input type="text" name="username">
                     </div>
-                    <div class="right">
-                        <label for="city">Город</label>
-                        <select name="city" required="" id="id_city">
-                            <option value="" selected=""></option>
-
-                            <option value="da707b24-d4ce-48dd-bb31-28bc8feabb53">1</option>
-                        
-                            <option value="ec774704-603a-47c5-8cb0-145175068765">2</option>
-                        
-                        </select>
+                    <div class="password_group">
+                        <div class="input_group password">
+                            <label for="password">Пароль</label>
+                            <input type="password" name="password">
+                        </div>
                     </div>
-                </div>
-                <button type="submit">Найти туры</button>
-            </form>
-        </div>  
+                    <button type="submit">Войти</button>
+                </form>
+            </div>
+        </div>
     </section>
-    <script src="jquery.js"></script>
-    <script src="script.js"></script>
 </body>
-</html>
