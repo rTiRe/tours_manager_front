@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/body.css">
-    <link rel="stylesheet" href="css/account_form.css">
+    <link rel="stylesheet" href="css/profile.css">
     <script src="https://kit.fontawesome.com/8f534068a4.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -29,50 +29,41 @@
     </header>
     <section class="home">
         <div class="container">
-            <div class="account_form">
-                <p class="title"><i class="fa-solid fa-hand-peace"></i> Давайте знакомиться!</p>
-                <form method="post">
-                    <div class="input_group username">
-                        <label for="username">Имя пользователя</label>
-                        <input type="text" name="username">
-                    </div>
-                    <div class="person_group">
-                        <div class="input_group firstname">
-                            <label for="first_name">Имя</label>
-                            <input type="text" name="first_name">
+            <div class="left">
+                <div class="profile">
+                    <div class="userinfo">
+                        <div class="avatar">
+                            <img src="img/avatar.png" alt="gravatar">
                         </div>
-                        <div class="input_group lastname">
-                            <label for="last_name">Фамилия</label>
-                            <input type="text" name="last_name">
+                        <section>
+                            <h2>Bon Voyage</h2>
+                            <h5>@tire</h5>
+                        </section>
+                    </div>
+                </div>
+                <div class="agency_info">
+                    <h3>
+                        Турагенство 
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         </div>
+                    </h3>
+                    <div class="contacts">
+                        <p>Владелец: Artem Tuyrin</p>
+                        <p>Email: <a href="mailto:wolordkit@gmail.com">wolordkit@gmail.com</a></p>
+                        <p>Телефон: <a href="tel:+79385213208">+79385213208</a></p>
                     </div>
-                    <div class="input_group email">
-                        <label for="email">Email</label>
-                        <input type="email" name="email">
+                    <div class="documents">
+                        All docs
                     </div>
-                    <div class="password_with_hint">
-                        <div class="password_group">
-                            <div class="input_group password">
-                                <label for="password">Пароль</label>
-                                <input type="password" name="password">
-                            </div>
-                            <div class="input_group password2">
-                                <label for="password2">Пароль еще раз</label>
-                                <input type="password" name="password2">
-                            </div>
-                        </div>
-                        <span class="errors">
-                            <ul>
-                                <li><i class="fa-solid fa-triangle-exclamation"></i> Пароль не должен быть слишком похож на другую вашу личную информацию.</li>
-                                <li><i class="fa-solid fa-triangle-exclamation"></i> Ваш пароль должен содержать как минимум 8 символов.</li>
-                                <li><i class="fa-solid fa-triangle-exclamation"></i> Пароль не должен быть слишком простым и распространенным.</li>
-                                <li><i class="fa-solid fa-triangle-exclamation"></i> Пароль не может состоять только из цифр.</li>
-                            </ul>
-                        </span>
-                    </div>
-                    <button type="submit">Зарегистрироваться</button>
-                </form>
-                <p class="form_redirect">Уже есть аккаунт? <a href="login.html">Войдите</a></p>
+                </div>
+            </div>
+            <div class="right">
+                <button>Edit</button>
             </div>
         </div>
     </section>
