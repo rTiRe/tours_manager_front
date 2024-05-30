@@ -7,9 +7,15 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/body.css">
-    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/tour.css">
+    <link rel="stylesheet" href="css/reviews.css">
     <link rel="stylesheet" href="css/rating.css">
+    <link rel="stylesheet" href="css/review_create.css">
     <script src="https://kit.fontawesome.com/8f534068a4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="jquery.js"></script>
 </head>
 <body>
     <header>
@@ -30,42 +36,163 @@
     </header>
     <section class="home">
         <div class="container">
-            <div class="left">
-                <div class="profile">
-                    <div class="userinfo">
-                        <div class="avatar">
-                            <img src="img/avatar.png" alt="gravatar">
-                        </div>
-                        <section>
-                            <h2>Bon Voyage</h2>
-                            <h5>@tire</h5>
-                        </section>
+            <div class="profile">
+                <div class="tourheader">
+                    <div class="avatar">
+                        <img src="img/search-banner.png" alt="gravatar">
                     </div>
-                </div>
-                <div class="agency_info">
-                    <h3>
-                        Турагенство 
+                    <section>
+                        <h2>Bon Voyage</h2>
                         <div class="rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
+                            Оценка <span class="num_rating">4.9</span> <span class="fa fa-star checked"></span>
                         </div>
-                    </h3>
-                    <div class="contacts">
-                        <p>Владелец: Artem Tuyrin</p>
-                        <p>Email: <a href="mailto:wolordkit@gmail.com">wolordkit@gmail.com</a></p>
-                        <p>Телефон: <a href="tel:+79385213208">+79385213208</a></p>
-                    </div>
-                    <div class="documents">
-                        All docs
-                    </div>
+                        <h4>Предоставляет: <a href="">Турагенство</a></h4>
+                    </section>
                 </div>
-            </div>
-            <div class="right">
-                <button>Edit</button>
             </div>
         </div>
     </section>
+    <main>
+        <div class="container">
+            <div class="info_header">
+                <nav>
+                    <ul class="info_menu">
+                        <li class="see_info"><a href="#info"><span>Информация</span></a></li>
+                        <li class="see_reviews"><a href="#reviews"><span>Отзывы</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="tour_info">
+                <div class="part">
+                    <h3>Остановки:</h3>
+                    <p>
+                        <ul>
+                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> hikjlh</li>
+                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> rgf</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="part">
+                    <h3>Описание:</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime repudiandae autem corrupti, doloribus ipsa exercitationem cum, dolorum sit nam sequi ut! Veniam totam aspernatur maiores autem rerum iste sunt eos sit culpa? Voluptatum cum architecto numquam reiciendis eius magni repellat sit nulla explicabo harum sed fugiat error, maiores voluptas asperiores, dolores aspernatur. Doloremque enim non ratione voluptates, explicabo omnis sunt ex fuga, repellendus vel corrupti. Vitae nesciunt necessitatibus qui temporibus voluptates at illum deleniti maxime. Repellendus, aspernatur. Autem ipsa minus sunt ab laudantium repudiandae, eveniet incidunt ipsam similique corrupti nesciunt, ullam laborum beatae distinctio! Harum, necessitatibus! Odit, ratione. Aliquam accusamus quam hic architecto natus? Ratione consequatur, doloribus architecto nemo, pariatur nostrum vero error praesentium qui dolore dolorum laboriosam, dicta eum animi magnam minus quibusdam temporibus recusandae? Impedit dicta animi sed fuga ullam. Minima ipsum saepe non eaque commodi earum, laudantium voluptate facere! Illo, vel et expedita sint, consequatur maxime, corporis illum a necessitatibus veniam earum exercitationem quis velit! Expedita quis rerum delectus nobis sint laborum, aliquam ipsam! Ipsa omnis, laudantium dolore illum ea corrupti voluptatum deserunt doloremque repudiandae! Impedit hic at accusamus quam est deleniti, dolorem expedita assumenda minus animi voluptas tenetur illo quia molestias nisi, recusandae deserunt neque nulla. Enim alias iusto dignissimos nemo, nam reiciendis omnis consectetur veritatis cumque? Illo iure nihil fuga. Ullam alias dolores explicabo blanditiis, nam suscipit minus quos amet porro sunt, commodi illum facere fugit, tempora vero. Ratione, ipsa soluta aliquid officiis dolorum libero illo beatae necessitatibus blanditiis distinctio ipsam est veritatis ex adipisci cum voluptatem? Recusandae, fuga. Rerum cupiditate, eius optio tenetur fugiat nobis accusantium ipsa a culpa ad in, consequatur ipsam hic dolore doloremque? Ipsum incidunt debitis nesciunt fugiat obcaecati similique corrupti optio unde, facere illo esse architecto consequatur cupiditate ut nobis nisi explicabo sint adipisci minus ex dignissimos voluptatibus? Fugiat, dicta.
+                    </p>
+                </div>
+            </div>
+            <div class="reviews" style="display: none;">
+                <div class="title">
+                    <h3>Отзывы <span>79</span></h3>
+                </div>
+                <div class="reviews_wrapper">
+                    <div class="review">
+                        <a href="author">
+                            <div class="author">
+                                <div class="avatar">
+                                    <img src="img/avatar.png" alt="avatar">
+                                </div>
+                                <div class="right">
+                                    <div class="full_name">
+                                        First Last <span>@user</span>
+                                    </div>
+                                    <span class="created">От 11.11.11</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="review_data">
+                            <div class="edit"><i class="fa-solid fa-edit" aria-hidden="true"></i> Редактировать</div>
+                            <div class="rating">
+                                <div class="title">Оценка: </div>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div class="text">
+                                <div class="title">Отзыв: </div>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident animi laudantium sit sequi iure dignissimos, excepturi possimus est sint praesentium minima architecto ex eos amet vero doloremque vel aliquid maxime incidunt minus, voluptatibus quas. Hic culpa tenetur, numquam aperiam sed dolore? Aspernatur dicta similique mollitia magni illum assumenda necessitatibus blanditiis. Corporis, architecto magnam odit, ea ullam nulla rerum explicabo delectus amet nisi ratione possimus excepturi, distinctio unde suscipit facere. At porro itaque laudantium debitis odio provident sequi sint, rem quae perspiciatis fugiat commodi quo dicta animi! Aliquam officiis iure sit saepe itaque numquam recusandae. Earum expedita esse fuga laudantium quaerat!
+                            </div>
+                        </div>
+                        <form class="edit_form" action="#reviews" style="display:none;">
+                            <button type="submit" class="edit"><i class="fa fa-save" aria-hidden="true"></i> Сохранить</button>
+                            <div class="rating rating_input">
+                                <input type="radio" id="star5" name="rating" value="5"><label for="star5" class="fa fa-star"></label>
+                                <input type="radio" id="star4" name="rating" value="4"><label for="star4" class="fa fa-star"></label>
+                                <input type="radio" id="star3" name="rating" value="3" checked><label for="star3" class="fa fa-star"></label>
+                                <input type="radio" id="star2" name="rating" value="2"><label for="star2" class="fa fa-star"></label>
+                                <input type="radio" id="star1" name="rating" value="1"><label for="star1" class="fa fa-star"></label>
+                                <div class="title">Оценка: </div>
+                            </div>
+                            <div class="text">
+                                <div class="title">Отзыв:</div>
+                                <textarea name="review">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="review">
+                        <a href="author">
+                            <div class="author">
+                                <div class="avatar">
+                                    <img src="img/avatar.png" alt="avatar">
+                                </div>
+                                <div class="right">
+                                    <div class="full_name">
+                                        First Last <span>@user</span>
+                                    </div>
+                                    <span class="created">От 11.11.11</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="rating">
+                            <div class="title">Оценка: </div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="text">
+                            <div class="title">Отзыв: </div>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident animi laudantium sit sequi iure dignissimos, excepturi possimus est sint praesentium minima architecto ex eos amet vero doloremque vel aliquid maxime incidunt minus, voluptatibus quas. Hic culpa tenetur, numquam aperiam sed dolore? Aspernatur dicta similique mollitia magni illum assumenda necessitatibus blanditiis. Corporis, architecto magnam odit, ea ullam nulla rerum explicabo delectus amet nisi ratione possimus excepturi, distinctio unde suscipit facere. At porro itaque laudantium debitis odio provident sequi sint, rem quae perspiciatis fugiat commodi quo dicta animi! Aliquam officiis iure sit saepe itaque numquam recusandae. Earum expedita esse fuga laudantium quaerat!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        $(document).ready(function() {
+            if (window.location.hash == "reviews") {
+                console.log("y")
+                $('.see_reviews a').click();
+            } else {
+                $('.see_info a').click();
+            }
+            // При клике на "Информация"
+            $('.see_info').click(function() {
+                $('.tour_info').show();  // Показываем блок с информацией
+                $('.reviews').hide();    // Скрываем блок с отзывами
+            });
+            // При клике на "Отзывы"
+            $('.see_reviews').click(function() {
+                console.log()
+                $('.reviews').show();    // Показываем блок с отзывами
+                $('.tour_info').hide();  // Скрываем блок с информацией
+            });
+            $('.edit').click(function() {
+                var reviewContainer = $(this).closest('.review');
+                reviewContainer.find('.review_data').hide(); // Скрыть текущие элементы
+                reviewContainer.find('.edit_form').show();     // Показать форму для редактирования
+            });
+            $('.edit_form').submit(function(e) {
+                var formData = $(this).serializeArray(); // Получить данные формы
+                console.log(formData); // Просто логирование данных формы
+
+                // Здесь может быть код для отправки данных на сервер
+                
+                $(this).hide(); // Скрыть форму после "сохранения"
+                $(this).closest('.review').find('.review_data').show(); // Показать исходные блоки
+            });
+        });
+        </script>
 </body>
